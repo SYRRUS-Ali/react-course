@@ -1,0 +1,15 @@
+.taskList {
+    margin-top: 20px;
+  }
+  
+  .emptyMessage {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .taskList > .task:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  margin: 2rem;
+}
+
+form {
+  margin-bottom: 1.2rem;
+}
+
+input {
+  padding: 1rem;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+
+.task {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+}
+
+.task span {
+  cursor: pointer;
+}
